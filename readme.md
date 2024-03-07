@@ -1,6 +1,6 @@
 # SpeechSync
 
-SpeechSync is a Python application that converts speech into text and transcribes it into different languages. Follow the steps below to set up and run the app.
+SpeechSync is a Python application that converts speech into text and transcribes it into different languages. Follo the steps belo to set up and run the app.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ scoop install ffmpeg
 
 ### Rust (if needed)
 
-If tiktoken does not provide a pre-built wheel for your platform, you may need to install Rust. Follow the Getting Started page to install the Rust development environment. Additionally, configure the PATH environment variable:
+If tiktoken does not provide a pre-built wheel for your platform, you may need to install Rust. Follo the Getting Started page to install the Rust development environment. Additionally, configure the PATH environment variable:
 
 ```bash
 export PATH="$HOME/.cargo/bin:$PATH"
