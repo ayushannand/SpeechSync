@@ -1,14 +1,33 @@
-import whisper
+import torch
+from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 
-# import ssl
 
-# # Disable SSL certificate verification (use with caution)
-# ssl._create_default_https_context = ssl._create_unverified_context
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
+torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 
-model = whisper.load_model("base")
-result = model.transcribe("audio/hi9.wav", fp16=False)
+# model_id = "openai/whisper-large-v3"
+# Large v3 is precise but takes a looooot of time
+model_id = "openai/whisper-tiny"
+
+model = AutoModelForSpeechSeq2Seq.from_pretrained(
+    model_id, torch_dtype=torch_dtype, low_cpu_mem_usage=True, use_safetensors=True
+)
+model.to(device)
+
+processor = AutoProcessor.from_pretrained(model_id)
+
+pipe = pipeline(
+    "automatic-speech-recognition",
+    model=model,
+    tokenizer=processor.tokenizer,
+    feature_extractor=processor.feature_extractor,
+    max_new_tokens=128,
+    chunk_length_s=30,
+    batch_size=16,
+    return_timestamps=True,
+    torch_dtype=torch_dtype,
+    device=device,
+)
+
+result = pipe("audio/hi13.wav")
 print(result["text"])
-
-
-
-

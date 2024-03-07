@@ -76,7 +76,8 @@ source env/bin/activate
 ### Step 4 - Install whisper in the virtual environment
 
 ```bash
-pip install git+https://github.com/openai/whisper.git
+pip install --upgrade pip
+pip install --upgrade git+https://github.com/huggingface/transformers.git accelerate
 ```
 
 ## Running the App
