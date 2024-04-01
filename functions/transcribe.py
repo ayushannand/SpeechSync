@@ -30,8 +30,8 @@ def transcribe_audio(file_path):
     )
 
     result = pipe(file_path)
-    print(result["text"])
+    # print(result["text"])
     return result["text"]
 
 
-# transcribe_audio("audio/hi7.wav")
+transcribe_audio("audio/hi7.wav")
