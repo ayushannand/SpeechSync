@@ -73,10 +73,12 @@ python3 -m venv env
 source env/bin/activate
 ```
 
-### Step 4 - Install whisper in the virtual environment
+### Step 4 - Install whisper and translator in the virtual environment
 
 ```bash
-pip install git+https://github.com/openai/whisper.git
+pip install --upgrade pip
+pip install --upgrade git+https://github.com/huggingface/transformers.git accelerate
+pip install sacremoses
 ```
 
 ## Running the App
