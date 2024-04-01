@@ -6,7 +6,9 @@
 
 # misc
 /__pycache__
+__pycache__/
 .DS_Store
+/.vscode
 *.pem
 *.pyc
 *.pyo
