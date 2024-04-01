@@ -3,6 +3,10 @@
 # dependencies
 /env
 
+
 # misc
+/__pycache__
 .DS_Store
 *.pem
+*.pyc
+*.pyo
