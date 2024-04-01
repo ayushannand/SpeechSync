@@ -2,8 +2,6 @@
 
 # dependencies
 /env
-
-
 # misc
 /__pycache__
 __pycache__/
