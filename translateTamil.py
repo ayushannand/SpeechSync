@@ -3,11 +3,11 @@ from app import transcribe_audio
 import re
 
 # Load translation model
-tokenizer = AutoTokenizer.from_pretrained("Helsinki-NLP/opus-mt-en-hi")
-model = AutoModelForSeq2SeqLM.from_pretrained("Helsinki-NLP/opus-mt-en-hi")
+tokenizer = AutoTokenizer.from_pretrained("Helsinki-NLP/opus-mt-en-dra")
+model = AutoModelForSeq2SeqLM.from_pretrained("Helsinki-NLP/opus-mt-en-dra")
 
 # Transcribe audio and translate
-file_path = "audio/hi9.wav"
+file_path = "audio/hi7.wav"
 transcribed_text = transcribe_audio(file_path)
 
 # Preprocess transcribed text
