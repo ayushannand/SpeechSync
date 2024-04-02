@@ -2,16 +2,18 @@ from functions.transcribe import transcribe_audio
 from functions.translator import traslatorModel
 from functions.lineBreak import getLines
 from functions.saveasFile import save
+from functions.postProcessHindi import postpHindi
 
-
-file_path = "audio/hi9.wav"
+file_path = "audio/hi15.wav"
 transcribedText = transcribe_audio(file_path)
 lines = getLines(transcribedText,'.')
 
-# Hindi
-hindi = traslatorModel(lines,'hi')
-save(hindi,"result/hindi","hi9")
+print(lines)
 
-# Tamil
-tamil = traslatorModel(lines,'dra')
-save(tamil,"result/tamil","op")
+# Hindi
+hindi = postpHindi(traslatorModel(lines,'hi'))
+save(hindi,"result/hindi","testDelete15")
+
+# # Tamil
+# tamil = traslatorModel(lines,'dra')
+# save(tamil,"result/tamil","hi7")
