@@ -4,10 +4,9 @@
 /env
 # misc
 /__pycache__
-__pycache__/
 /data
-.DS_Store
 /.vscode
+.DS_Store
 *.pem
 *.pyc
 *.pyo

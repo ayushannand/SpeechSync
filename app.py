@@ -6,9 +6,11 @@ from functions.postProcessHindi import postpHindi
 from functions.ScareBleu import getScore
 
 
-# #Get and save score in 
-# refPath = "testing/Hindi-Expected/hi9String.txt"
-# outPath = "testing/Hindi-ML/hi9String.txt"
-# scoreName= "namenew"
-# comments = ""
-# getScore(refPath,outPath,scoreName,comments)
+#Get and save score in 
+refPath = "testing/Hindi-Expected/hi9String.txt"
+outPath = "testing/Hindi-ML/hi9.txt"
+scoreName= "hi9 String score"
+comments = ""
+Stringify = True
+print(getScore(refPath,outPath,scoreName,Stringify,comments))
+
