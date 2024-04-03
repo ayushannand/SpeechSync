@@ -1,49 +1,3 @@
-Expected text -----
-
-
-In 1960, American composer John Cage went on national television to share his latest work.
-But rather than employing traditional instruments, Cage appeared surrounded by household clutter, including a bathtub, ice cubes, a toy fish, a pressure cooker, a rubber duck, and several radios.
-Armed with these tools and a stopwatch, he performed “Water Walk,” setting off a series of sounds with a serious expression and incredible precision.
-Some viewers found the performance hysterical, while others thought it was completely absurd.
-But most people watching likely shared the same question: is this even music?
-This question is harder to answer than you might think.
-What we determine as music often depends on our expectations.
-For example, imagine you’re in a jazz club listening to the rhythmic honking of horns.
-Most people would agree that this is music.
-But if you were on the highway hearing the same thing, many would call it noise.
-After all, car horns aren’t instruments and these drivers aren’t musicians. . . right?
-Expectations like these influence how we categorize everything we hear.
-We typically think something sounds more musical if it uses a recognizable structure or popular sounds arranged in well-known patterns.
-And even within the realm of music, we expect certain genres to use specific instruments and harmonies.
-These expectations are based on existing musical traditions, but those traditions aren't set in stone.
-They vary across different cultures and time periods.
-And in the early 20th century, when many artists were pushing the boundaries of their fields, John Cage wanted to discover what new kinds of music might exist beyond those constraints.
-He began pioneering new instruments that blurred the lines between art and everyday life, and used surprising objects to reinvent existing instruments.
-He also explored new ways for music to mingle with other art forms.
-He and his creative and romantic partner, Merce Cunningham, held recitals where Cage’s music and Cunningham’s choreography would be created independently before being performed together.
-But whatever his approach, Cage gleefully dared listeners to question the boundaries between music and noise, as well as sound and silence.
-Perhaps the best example is one of Cage’s most famous compositions— a solo piano piece consisting of nothing but musical rests for four minutes and 33 seconds.
-This wasn’t intended as a prank, but rather, as a question.
-Could the opening and closing of a piano lid be music?
-What about the click of a stopwatch?
-The rustling, and perhaps even the complaining, of a crowd?
-Like the white canvases of his painting peers, Cage asked the audience to question their expectations about what music was. And while the piece didn’t evoke the drama of some traditional compositions, it certainly elicited a strong emotional response.
-Cage’s work frequently prioritized these spontaneous, ephemeral experiences over precise, predictable performances.
-He even developed processes that left some compositional decisions up to chance.
-One of his favorite such systems was the I Ching, an ancient Chinese divination text.
-Using just a handful of coins, the I Ching allos readers to produce a pattern of lines which can be interpreted to answer questions and offer fortunes.
-But Cage adapted these patterns into a series of tables that generated different musical durations, tempos, and dynamics.
-Eventually, he even used early computers to help produce these random parameters.
-For some pieces, Cage went even further, offering musicians incomplete compositions notated with broad instructions, alloing them to compose on the fly with the help of his guidelines.
-Some composers rejected Cage's seemingly careless approach.
-They believed it was the composer’s job to organize sound and time for a specific, intentional purpose.
-After all, if these strange compositions were music, then where do we draw the line?
-But like a bold explorer, Cage didn't want to be bound by restrictions, and he certainly didn't want to follo old rules.
-He dedicated himself to shattering our expectations, creating a series of once in a lifetime experiences that continue encouraging musicians and audiences to embrace the unexpected.
-
-
-
-
 1960 में, अमेरिकी संगीतकार जॉन केज अपने नवीनतम काम को साझा करने के लिए राष्ट्रीय टेलीविजन पर गए।
 लेकिन पारंपरिक उपकरणों का उपयोग करने के बजाय, केज घरेलू अव्यवस्था से घिरा हुआ दिखाई दिया, जिसमें एक बाथटब, बर्फ के टुकड़े, एक खिलौना मछली, एक प्रेशर कुकर, एक रबर बतख और कई रेडियो शामिल थे।
 इन उपकरणों और स्टॉपवॉच से लैस होकर, उन्होंने गंभीर अभिव्यक्ति और अविश्वसनीय सटीकता के साथ ध्वनियों की एक श्रृंखला शुरू करते हुए "वॉटर वॉक" का प्रदर्शन किया।
@@ -81,15 +35,3 @@ He dedicated himself to shattering our expectations, creating a series of once i
 कुछ संगीतकारों ने केज के प्रतीत होने वाले लापरवाह दृष्टिकोण को अस्वीकार कर दिया।
 उनका मानना ​​था कि किसी विशिष्ट, जानबूझकर उद्देश्य के लिए ध्वनि और समय को व्यवस्थित करना संगीतकार का काम था।
 आख़िरकार, अगर ये अजीब रचनाएँ संगीत थीं, तो हम रेखा कहाँ खींचते हैं?
-लेकिन एक साहसी खोजकर्ता की तरह, केज प्रतिबंधों से बंधा नहीं रहना चाहता था, और वह निश्चित रूप से पुराने नियमों का पालन नहीं करना चाहता था।
-उन्होंने हमारी उम्मीदों को तोड़ने के लिए खुद को समर्पित कर दिया, जीवन में एक बार मिलने वाले अनुभवों की एक श्रृंखला बनाई जो संगीतकारों और दर्शकों को अप्रत्याशित को अपनाने के लिए प्रोत्साहित करती रही।
-इबोला उन सबसे घातक वायरसों में से एक है जिनके बारे में हम जानते हैं।
-यदि उपचार न किया जाए, तो यह संक्रमित होने वाले लगभग आधे लोगों को मार देता है।
-यह रक्त और पसीने सहित आपके शरीर द्वारा उत्पादित लगभग हर तरल पदार्थ के माध्यम से फैल सकता है।
-
-
-
-
-LLM output ----
-
- In 1960, American composer John Cage went on national television to share his latest work, but rather than employing traditional instruments, Cage appeared surrounded by household clutter, including a bathtub, ice cubes, untoy fish, a pressure cooker, a rubber duck, and several radios. Armed with these tools and a stopwatch, he performed waterwalk, setting up a series of sounds with a serious expression and incredible precision. Some viewers found the performance hysterical, while others thought it was completely absurd. But most people watching likely shared the same question. Is this even music? This question is harder to answer than you might think. What we determine as music often depends on our expectations. For example, imagine you're in a jazz club listening to the rhythmic honking of horns. Most people would agree that this is music. But if you were on the highway hearing the same thing, many would call it noise. After all, car horns aren't instruments and these drivers aren't musicians, right? Expectations like these influence how we categorize everything we hear. We typically think something sounds more musical if it uses a recognizable structure, or popular sounds arranged and well-known patterns. And even within the realm of music, we expect certain genres to use specific instruments and harmonies. These expectations are based on existing musical traditions, but those traditions aren't set in stone. They vary across different cultures and time periods, and in the early 20th century, when many artists were pushing the boundaries of their fields, John Cage wanted to discover what new kinds of music might exist beyond those constraints. He began pioneering new instruments that blurred the lines between art and everyday life, and used surprising objects to reinvent existing instruments. He also explored new ways for music to mingle with other art forms. He and his creative and romantic partner, Merce Cunningham, held recitals where Cage's music and Cunningham's choreography would be created independently before being performed together. Whatever his approach, Cage gleefully dared listeners to question the boundaries between music and noise, as well as sound and silence. Perhaps the best example is one of Cage's most famous compositions, a solo piano piece consisting of nothing but musical rests for four minutes and thirty-three seconds. This wasn't intended as a prank, but rather as a question, could the opening and closing of a piano lid be music? What about the click of a stopwatch, the rustling and perhaps even the complaining of a crowd? Like the white canvases of his painting peers, Cage asked the audience to question their expectations about what music was, and while the piece didn't evoke the drama of some traditional compositions, it certainly elicited a strong emotional response. Cage's work frequently prioritized the spontaneous ephemeral experiences over precise, predictable performances. He even developed processes that left some compositional decisions up to chance. One of his favorite such systems was the Eatsing, an ancient Chinese divination text, using just a handful of coins, the Eatsing allos readers to produce a pattern of lines, which can be interpreted to answer questions and offer fortunes. But Cage adapted these patterns into a series of tables that generated different musical durations, tempos and dynamics. Eventually, he even used early computers to help produce these random parameters. For some pieces, Cage went even further, offering musicians incomplete compositions, notated with broad instructions, alloing them to compose on the fly with the help of his guidelines. Some composers rejected Cage's seemingly careless approach. They believed it was the composer's job to organize sound and time for a specific intentional purpose. After all, if these strange compositions were music, then where do we draw the line? But like a bold explorer, Cage didn't want to be bound by restrictions. And he certainly didn't want to follo old rules. He dedicated himself to shattering our expectations, creating a series of once-in-a-lifetime experiences that continue encouraging musicians and audiences to embrace the unexpected.
