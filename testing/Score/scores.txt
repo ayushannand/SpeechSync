@@ -9,5 +9,25 @@ hi13 - 0.1089
 hi14 - 0.8108
 hi15 - 0.2415
 hi15String - 17.6446
-
-
+hi9 String score - 6.4070;	
+hi15SScore - ;	
+hi15SScore - ;	
+hi15SScore - ;	
+hi9 String score - ;	
+hi9 String score - 6.4070;	
+hi15SScore - ;	
+hi15SScore - ;	
+hi15Score - ;	
+hi15Score - ;	
+hi15Score - ;	
+hi15Score - 6.4070;	
+hi15Score - 1.5623;	
+hi15Score - 1.5623;	
+hi15Score - 1.5623;	
+hi15Score - 1.5623;	
+hi15Score - 18.6426;	
+hi15Score - 18.6426;	
+hi7 and hi 9 - 2.1511;	
+hi7 and hi 9 - 2.1511;	
+hi9 String score - 6.4070;	
+hi9 String score - 6.4070;	
