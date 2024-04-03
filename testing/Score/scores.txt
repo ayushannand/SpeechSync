@@ -1,12 +1,13 @@
 hi7 - 2.3850
+hi7String - 16.6227
 hi9 - 9.1923
+hi9String - 6.4070 #There is some issue in this
 hi10 - 0.5045
 hi11 - 0.2901
 hi12 - 0.2996
 hi13 - 0.1089
 hi14 - 0.8108
 hi15 - 0.2415
-
-#there is some issue with the yaml file in testset, will see later :)
+hi15String - 17.6446
 
 
