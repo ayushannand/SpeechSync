@@ -8,5 +8,5 @@ def postpHindi(lines):
             res.append(line)
         else:
             # If line does not end with period or pipe, add pipe at the end
-            res.append(line + '।')
+            res.append(line + '। ')
     return res

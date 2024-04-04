@@ -8,6 +8,7 @@ def getLines(paragraph, delimiter):
     for line in lines:
         cleanLine = re.sub(r'^[ .]*', '', line)
         cleanLine = re.sub(r'[ .]*$', '', cleanLine)
-        cleanLines.append(cleanLine)
+        if cleanLine!='':
+            cleanLines.append(cleanLine)
         
     return cleanLines
