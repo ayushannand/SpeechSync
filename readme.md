@@ -80,6 +80,8 @@ pip install --upgrade pip
 pip install --upgrade git+https://github.com/huggingface/transformers.git accelerate
 pip install torch
 pip install sacremoses
+pip install sacrebleu
+
 ```
 
 ## Running the App
