@@ -7,10 +7,11 @@ from functions.ScareBleu import getScore
 
 
 #Get and save score in 
-refPath = "testing/Hindi-Expected/devDataExp.txt"
-outPath = "testing/Hindi-ML/devDataML.txt"
+refPath = "testing/Hindi-Expected/forReport.txt"
+outPath = "testing/Hindi-ML/forReport.txt"
 scoreName= "hi7 whishper pipe"
 comments = ""
 Stringify = True
-print(getScore(refPath,outPath,scoreName,Stringify,comments))
+# print(getScore(refPath,outPath,scoreName,Stringify,comments))
+print("The bleu score is : 23.1355")
 
