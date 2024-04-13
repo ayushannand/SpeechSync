@@ -11,33 +11,34 @@ start_time = time.time()
 
 
 # lines = []
-# dir = sorted(os.listdir("audio"), key=lambda x: int(x[2:-4]))
+# dir = sorted(os.listdir("data/bengali-test"), key=lambda x: int(x[2:-4]))
 # print(len(dir))
 # for audioFile in dir:
 #     print("processing " +  audioFile)
-#     file_path = os.path.join("audio", audioFile)
+#     file_path = os.path.join("data/bengali-test", audioFile)
 #     transcribedText = transcribe_audio(file_path)
 #     fileLines = getLines(transcribedText, '.')
+#     lines.extend("\nFilename = " + audioFile + '\n')
 #     lines.extend(fileLines)
 
-# save(lines,"result/english","devData",asString=1)
-# # Hindi
+# save(lines,"result/english-test","bengali-test",asString=0)
+# Hindi
 # hindi = postpHindi(traslatorModel(lines,'hi'))
 # save(hindi,"result/hindi","devData",asString=1)
 
 
 
-file_path = "audio/hi15.wav"
+file_path = "data/bengali-test/bn163.wav"
 transcribedText = transcribe_audio(file_path)
 lines = getLines(transcribedText,'.')
-# save(lines,"result/english","forReport",asString=0)
-# Hindi
-hindi = postpHindi(traslatorModel(lines,'hi'))
-# save(hindi,"result/hindi","forReport",asString=0)
+save(lines,"result/english-test","bn163",asString=0)
+# # Hindi
+# hindi = postpHindi(traslatorModel(lines,'hi'))
+# # save(hindi,"result/hindi","forReport",asString=0)
 
-# Tamil
-tamil = traslatorModel(lines,'dra')
-save(tamil,"result/tamil","forReport", asString=0)
+# # Tamil
+# tamil = traslatorModel(lines,'dra')
+# save(tamil,"result/tamil","forReport", asString=0)
 
 
 def print_timer(seconds):
