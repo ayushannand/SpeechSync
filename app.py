@@ -7,9 +7,9 @@ from functions.ScareBleu import getScore
 
 
 #Get and save score in 
-refPath = "testing/Hindi-Expected/devDataExp.txt"
-outPath = "testing/Hindi-ML/devDataML.txt"
-scoreName= "hi7 whishper pipe"
+refPath = "testing/tamilRef.txt"
+outPath = "testing/ta10.txt"
+scoreName= "ta10, fbtranslate, = "
 comments = ""
 Stringify = True
 print(getScore(refPath,outPath,scoreName,Stringify,comments))

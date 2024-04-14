@@ -17,3 +17,9 @@ hi7 whishper pipe - 13.5513;
 
 Dev Data to hindi by Google - 41.3646;	
 Dev data to hindi by helsenki - 23.6898;	
+hi7 whishper pipe - 37.7454;	
+hi7 whishper pipe - 42.2247;	
+hi7 whishper pipe - 41.8306;	
+hi7 whishper pipe - 38.8151;	
+hi7 whishper pipe - 35.3032;	
+ta10, fbtranslate, =  - 5.7310;	
