@@ -11,3 +11,6 @@
 *.pyc
 *.pyo
 *.cfg
+/audioTamil
+/audioHindi
+/audioBangali
