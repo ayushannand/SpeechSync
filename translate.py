@@ -4,7 +4,7 @@ from functions.lineBreak import getLines
 from functions.saveasFile import save
 from functions.postProcessHindi import postpHindi
 from functions.fbtranslator import fbtranslate
-from functions.tarnscriber import transcriber
+from functions.transcriber import transcriber
 from functions.ScareBleu import getScore
 import os, time
 
