@@ -7,10 +7,10 @@ from functions.ScareBleu import getScore
 
 
 #Get and save score in 
-refPath = "submission/tamilFinal.ta"
-outPath = "submission/en-ta_Case_Indic2024.ta"
+refPath = "testing/ref.txt"
+outPath = "testing/out.txt"
 scoreName= "ta10, fbtranslate, = "
 comments = ""
-Stringify = True
+Stringify = False
 print(getScore(refPath,outPath,scoreName,Stringify,comments))
 
