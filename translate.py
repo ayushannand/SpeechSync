@@ -12,19 +12,19 @@ import os, time
 start_time = time.time()
 
 # English transcription, you can remove the yaml parameter if you need to transcribe without it (Forcing line changes based on yaml)
-audioFolder = "HindiDevAudio"
-yamlFile = "yamls/dev.yaml"
+audioFolder = "audioTamil2"
+yamlFile = "yamls/tst-COMMON-tamil2.yaml"
 lines = transcriber(audioFolder, yamlFile)
-save(lines,"result/tamil-test","YAMLTranscript",asString=0)
+save(lines,"result/tamil-test","tamil-testv2-transcript-11-20",asString=0)
 
 
 # Tamil Facebook
-# tamil = fbtranslate(lines)
-# save(tamil,"result/tamil-test","YAMLTranslate", asString=0)
+tamil = fbtranslate(lines)
+save(tamil,"result/tamil-test","tamil-testv2-11-20", asString=0)
 
-# Hindi
-hindi = postpHindi(traslatorModel(lines,'hi'))
-save(hindi,"result/hindi","devYAML",asString=0)
+# # Hindi
+# hindi = postpHindi(traslatorModel(lines,'hi'))
+# save(hindi,"result/hindi","devYAML",asString=0)
 
 
 # save(lines,"result/english-test","hindi-test",asString=0)

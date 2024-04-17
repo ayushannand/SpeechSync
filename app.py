@@ -4,11 +4,14 @@ from functions.lineBreak import getLines
 from functions.saveasFile import save
 from functions.postProcessHindi import postpHindi
 from functions.ScareBleu import getScore
+from functions.swapLines import swapLines
 
 
-#Get and save score in 
-refPath = "testing/ref.txt"
-outPath = "testing/out.txt"
+swapLines("result/tamil-test/tamil-testv2-swap.txt","result/tamil-test/tamil-test-googleref.txt")
+
+# Get and save score in 
+refPath = "result/tamil-test/tamil-test-googleref.txt"
+outPath = "result/tamil-test/tamil-testv2-swap.txt"
 scoreName= "ta10, fbtranslate, = "
 comments = ""
 Stringify = False
